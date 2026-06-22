@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import type { FunctionComponent } from "../common/types";
 
 export const Home = (): FunctionComponent => {
-	const { t, i18n } = useTranslation();
+	const [t, i18n] = useTranslation();
 
 	const onTranslateButtonClick = async (): Promise<void> => {
 		if (i18n.resolvedLanguage === "en") {
