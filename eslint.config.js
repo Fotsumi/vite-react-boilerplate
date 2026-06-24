@@ -168,7 +168,7 @@ const unicornConfig = {
     "unicorn/no-console-spaces": "error",
     "unicorn/no-null": "off",
     "unicorn/filename-case": "off",
-    "unicorn/prevent-abbreviations": [
+    "unicorn/name-replacements": [
       "error",
       {
         "replacements": {
