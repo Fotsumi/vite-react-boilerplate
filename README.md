@@ -48,7 +48,7 @@ A more detailed list of the included packages can be found in the [Installed Pac
 
 ## Requirements
 
-- [NodeJS 18+](https://nodejs.org/en)
+- [NodeJS 24+](https://nodejs.org/en)
 - [pnpm](https://pnpm.io) (or equivalent)
 
 If you'd like to use the included Dockerfile then [Docker](https://www.docker.com) is required as well:
